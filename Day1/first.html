@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>
+        new
+    </title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+   
+    <div class="container">
+        <form class="container shadow" onsubmit="register()">
+                <input type="text" name="" placeholder="Name:" class="auth-input">
+                <input type="text" name="" placeholder="Password:" class="auth-input">
+                <input type="text" name="" placeholder="Email:" class="auth-input">
+                <input type="submit" name="" value="Register" class="auth-btn">
+        </form> 
+        <button onclick="show()"
+    </div>
+</body>
+<script>
+    function register(event) {
+            event.preventDefault(); 
+            const Username = document.getElementById('USERNAME').value;
+            const Password = document.getElementById('Password').value;
+            const Email = document.getElementById('Email').value;
+            const Register=document.getElementById("Register").value;
+             
+
+            const message="Resigtration successfull\n\n";+
+            "Username: "+Username+"\n";
+            
+            alert(message);
+        }
+</script>
+</html>
