@@ -6,27 +6,23 @@
         }
 
         nav {
-            background-color: #333;
+            background-color: #11b3cbfd;
             overflow: hidden;
         }
 
         nav a {
             float: left;
             display: block;
-            color: #f2f2f2;
+            color: #12b4e1;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
 
         nav a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #cb09ae;
+            color: rgb(194, 22, 148);
         }
-
-
-
-
 body{
     background: #ff6e7f;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
@@ -45,7 +41,7 @@ background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, F
     height: 80vh;
     width: 30vw;
     display: flex;
-    background-color:rgba(250, 128, 114, 0.242);
+    background-color:rgba(253, 37, 137, 0.854);
     display: flex;
     align-items: center;
     justify-content: center;
