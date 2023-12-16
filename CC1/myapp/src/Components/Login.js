@@ -1,15 +1,25 @@
+import {Routes,Route} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function Login() {
     return (
+        <div className="body">
+
         <div class="login-container">
             <header>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
+            <nav>
+              <ul>
+                <Link to = '/'>
+                  <li>Home</li>
+                </Link>
+                  <Link to = '/login'>
+                  <li>Login</li>
+                  </Link>
+                  <Link to ="/register">
+                  <li>Register</li>
+                    </Link>  
+              </ul>
+          </nav>
             </header>
 
             <form class="container">
@@ -26,6 +36,7 @@ function Login() {
 
 
             </form>
+            </div>
         </div>
 
     )

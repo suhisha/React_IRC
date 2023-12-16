@@ -7,25 +7,29 @@
   font-family: "Poppins", sans-serif;
 }
 .container1 {
-    top:100px;
+    /* top:100px; */
     
-   
-    padding-left: 350px;
+   /* background-color: blueviolet; */
+    padding: 80px;
+    /* margin:100px; */
+    height:80vh;
     flex-direction: column;
     justify-content: center;
     display: flex;
     gap: 15px;
     position: fixed;
     border-radius: 5px;
-  
-   
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(249, 249, 252, 0.5);
+    
+    
 }
 
 .container1:hover {
     border-color: #F09819; /* Change to your desired hover border color */
 }
-body {
-    background-image: url(https://img.freepik.com/premium-photo/pink-background-with-bunch-toys-pink-background_265515-4336.jpg);
+.regBody {
     background-color: rgb(188, 81, 131);
     
    
@@ -37,6 +41,7 @@ body {
     width: 300px;
     border-radius: 9px;
     color:white;
+    /* margin:50px; */
 }
 label {
     color: white; /* Change to white */
@@ -60,7 +65,7 @@ label {
     width: 90px;
     border-radius: 7px;
     font-size: large;
-  
+    
     background-color: white; /* Change to white */
     border: 2px solid white; /* Add a white border */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -69,13 +74,13 @@ label {
 {
    right:0;
    top:0;
-    position:fixed;
-    display:flex;
-     width: 700px;
-     height: 100vh;
-     margin:0;
-  
-     
+   position:fixed;
+   display:flex;
+   width: 700px;
+   height: 100vh;
+   margin:0;
+   
+   
 }
 .bb {
     height: 35px;
@@ -92,11 +97,21 @@ label {
 }
 .left
 {
-  
-    left:100px;
+    
+    /* left:100px; */
     position:fixed;
     display:flex;
+    /* background-color: black; */
+    height:100vh;
+    width:105vw;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/premium-photo/pink-background-with-bunch-toys-pink-background_265515-4336.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin:10px; */
 }
+
 h3{
     padding-left:60px;
 }

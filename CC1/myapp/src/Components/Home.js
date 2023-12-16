@@ -1,3 +1,6 @@
+import {Routes,Route} from 'react-router-dom';
+import {Link} from 'react-router-dom';
+
 function Home() {
     return (
       <div>
@@ -5,9 +8,14 @@ function Home() {
           <h1>Toy Store</h1>
           <nav>
               <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Products</a></li>
-                  <li><a href="#">Contact</a></li>
+                <Link to = '/'></Link>
+                  <li>Home</li>
+                  <Link to = '/login'>
+                  <li>Login</li>
+                  </Link>
+                  <Link to ="/register">
+                  <li>Register</li>
+                    </Link>  
               </ul>
           </nav>
       </header>
