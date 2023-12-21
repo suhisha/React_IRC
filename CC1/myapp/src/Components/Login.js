@@ -6,7 +6,7 @@ function Login() {
         <div className="body">
 
         <div class="login-container">
-            <header>
+           {/* <header>
             <nav>
               <ul>
                 <Link to = '/'>
@@ -18,9 +18,9 @@ function Login() {
                   <Link to ="/register">
                   <li>Register</li>
                     </Link>  
-              </ul>
-          </nav>
-            </header>
+              </ul> */}
+          {/* </nav> */}
+            {/* </header> */}
 
             <form class="container">
                 <h1>Login</h1>

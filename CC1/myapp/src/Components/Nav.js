@@ -14,11 +14,11 @@ function Nav()
             <nav>Home</nav>
             </Link>
 
-            <Link to='/login'>
+            <Link to='/Login'>
             <nav>Login</nav>
             </Link>
 
-            <Link to='/register'>
+            <Link to='/Register'>
             <nav>Register</nav>
             </Link>
         </div>
